@@ -4,7 +4,7 @@ var { toBN } = require('starknet/dist/utils/number');
 
 var ogameAbi = require('./abi/ogame.json');
 var erc721Abi = require('./abi/erc721.json');
-const ogameAddress = "0x03763a8330144f3552ba10e36fcf52fb002a338ff55ecb842d5282e0a6fb1226";
+const ogameAddress = "0x04c3c4f340ce5237918b17879a75cc32e98d96802e8513dfcb63ddeccaa2d02a";
 
 exports.fetchLeaderboard = async function () {
     console.log('fetchLeaderboard');
